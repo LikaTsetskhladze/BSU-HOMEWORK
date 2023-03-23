@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <style>
+    .Firstdiv {
+      border-top-width: 0px;
+      width: 435.35px;
+      height: 410px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      transform: rotate(-180deg);
+      background-image: linear-gradient(green, #17470F);
+    }
+
+    .divsecond {
+      margin-right: 10px;
+	  background-image: linear-gradient(white, #FFFFFF);
+	  color: white;
+      font-size: 48px;
+      width: 435.35px;
+      height: 298.49px;
+      padding-top: 20px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+
+    button {
+      font-size: 28px;
+      color: white;
+      background-color: #3483FA;
+      border-radius: 5px;
+      padding: 12px;
+      cursor: pointer;
+	  width: 397px;
+      height: 84px;
+	  margin-left:19px;
+	  margin-right: 19px;
+      font-size: 48px;
+	  margin-top: 10px;
+    }
+	
+	
+  </style>
+<body style="background-color:grey;">    
+    <div class="Firstdiv"></div>
+    <div class="divsecond">
+  <p style="font-size: 40px;color: black; margin-left: 20px; margin-bottom: -20px; margin-top: 0px;">
+    <b>$ 1.290<sup>00</sup></b> <br> <br>
+  </p>
+  <p style="font-size: 30px;color: black; margin-left: 20px; margin-top: 0px;">
+    ATH-M50x <br>
+  </p>
+  <p style="font-size: 20px; color: black; margin-left: 20px; margin-top: 0px;">
+    1634 Cimmaron Road Irvne, CA 9222 
+  </p>
+  <button>buy!</button>
+</div>
+
+  </body>
+</html>
