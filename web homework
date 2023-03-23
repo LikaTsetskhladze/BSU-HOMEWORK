@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>web homework</title>
+	<style>
+		html,
+		body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		.Firstdiv {
+			width: 100%;
+			height: 65%;
+			background-image: linear-gradient(grey, #808080);
+		}
+
+		h1 {
+			font-size: 150%;
+			margin: 0 auto;
+			text-align: center;
+			color: black;
+		}
+
+		h2 {
+			font-size: 100%;
+			margin: 0 auto;
+			text-align: center;
+			color: black;
+		}
+		
+		.Circle {
+			border-radius: 50%;
+			width: 5%;
+			padding-top: 5%;
+			background-color: white;
+			margin: 0 auto;
+			margin-top: 1%;
+			background-image: url('https://scontent.fkut1-1.fna.fbcdn.net/v/t1.6435-9/130567654_101845888472313_2036994775208951982_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHcu1X9BgeydoJSsCGmabXx7micYEofTPLuaJxgSh9M8kAXdT45mTi1U0TH1BLHcb90cnc6QydFj4SPqo1kUv5a&_nc_ohc=_am1OgcjJXkAX-Xg2cR&_nc_ht=scontent.fkut1-1.fna&oh=00_AfBZkS0T7wPG7pYOcfnVmFL4WjvzonhOg6nrt5tuLu2haQ&oe=643E69FD');
+            background-size: cover;
+		}
+		
+		.Line {
+		  margin: 0 auto;
+		  margin-top: 1%;
+          border-bottom: solid white;
+          width: 20%;		  
+        }
+		
+		.Divsecond {
+	  margin: 0 auto;
+	  margin-top: 4%;
+	  background-image: linear-gradient(MidnightBlue , 	#191970);
+      font-size: 15%;
+      width: 60%;
+	  height: 27%;
+      
+    }
+	   p {
+     font-size: 690%;
+	 color:white;
+	 padding-top: 2%;
+     padding-bottom: 2%;
+	 padding-left: 2%;
+	 padding-right:2%; 
+    }
+	
+	 h3 {
+      font-size: 130%;
+			margin: 0 auto;
+			color: black;
+			margin-top: 1%;
+    }
+	 h4 {
+      font-size: 130%;
+			margin: 0 auto;
+			color: black;
+			margin-top: 1%;
+    }
+	
+		
+	</style>
+</head>
+<body style="background-color:white;">
+	<div class="Firstdiv">
+		<h1><i>სვლა განვითარებისკენ</i></h1><br>
+		<h2>Moving Toward Development</h2>
+		<div class="Circle"></div>
+		<div class="Line"></div>
+		<marquee scrollamount=30 loop=10 behavior=alternate diraction=left > <h3> some text here </h3>
+		<h4> some text here </h4> </marquee>
+		<div class="Divsecond">
+		<p> სვლა განვითარებისკენ - ეს არის ახალგაზრდული ორგანიზაცია, რომელიც მიმართულია  ნებისმიერი მსურველის პიროვნულ და კარიერულ განვითარებაზე. სამომავლოდ თქვენთვის იგეგმება: ტრენინგები, მასტერკლასები, ვებინარები, პროექტები, რომელიც მოიცავს ერთმანეთისგან განსხვავებულ სფეროებს, როგორიცაა: ბიზნესი, სამართალი, ფსიქოლოგია და ა.შ</p> </div>
+	    
+	</div>
+</body>
+</html>
