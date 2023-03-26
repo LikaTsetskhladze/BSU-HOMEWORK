@@ -40,7 +40,7 @@
       top: -50px;
       left: 50%;
       transform: translateX(-50%);
-      width: 100px;
+      width: 120px;
       height: 100px;
       border-radius: 50%;
       background-color: #ffffff;
@@ -64,8 +64,8 @@
     .circle-logo img {
       max-width: 100%;
       max-height: 100%;
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
     }
     .username {
       position: absolute;
@@ -118,8 +118,10 @@
 <div class="firstdiv">
   <div class="seconddiv-container">
     <div class="circle-logo">
-      <img src="mylogo.jpg" alt="Your Logo"/>
-    </div>
+  <a href="https://www.facebook.com/profile.php?id=100066710294414" target="_blank">
+    <img src="mylogo.jpg" alt="My Logo"/>
+  </a>
+</div>
     <div class="seconddiv"></div> 
     <div class="username">
       <input type="text" placeholder="Enter your username">
@@ -129,7 +131,6 @@
     </div>
     <button>Login</button>
     <div class="footer">
-<a href="https://www.facebook.com/profile.php?id=100066710294414" target="_blank">click to see our facebook</a> <br>
 <p>svlaganvitarebisken@gmail.com</p>
 <p style="font-size: 16px">number: 592137618</p>
     </div>
@@ -139,8 +140,10 @@
 <div class="firstdiv">
   <div class="seconddiv-container">
     <div class="circle-logo">
-      <img src="mylogo.jpg" alt="Your Logo"/>
-    </div>
+  <a href="https://www.facebook.com/profile.php?id=100066710294414" target="_blank">
+    <img src="mylogo.jpg" alt="My Logo"/>
+  </a>
+</div>
     <div class="seconddiv"></div> 
     <div class="username">
       <input type="text" placeholder="Enter your username">
@@ -150,7 +153,6 @@
     </div>
     <button>Login</button>
     <div class="footer">
- <a href="https://www.facebook.com/profile.php?id=100066710294414" target="_blank">click to see our facebook</a>
 <p>svlaganvitarebisken@gmail.com</p>
 <p style="font-size: 16px">number: 592137618</p>
 
